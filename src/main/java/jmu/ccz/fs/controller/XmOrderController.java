@@ -26,6 +26,8 @@ public class XmOrderController {
                        HttpSession session,
                        Model model) {
 
+
+
         int pageSize = 5; // 每页显示数量
         PageHelper.startPage(page, pageSize);
 
@@ -34,5 +36,9 @@ public class XmOrderController {
 
         model.addAttribute("pb", pb);
         return "xmorder";
+
+
+
+
     }
 }

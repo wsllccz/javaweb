@@ -15,6 +15,8 @@
 </head>
 <body>
 
+
+
 <c:if test="${not empty sessionScope.msg}">
     <div style="color: green; text-align: center; margin: 10px 0;">
             ${sessionScope.msg}
@@ -29,6 +31,7 @@
             <th>用户ID</th>
             <th>收货地址ID</th>
             <th>总金额</th>
+            
             <th>备注</th>
             <th>状态</th>
             <th>下单时间</th>

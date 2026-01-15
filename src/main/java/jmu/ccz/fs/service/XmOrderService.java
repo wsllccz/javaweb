@@ -10,8 +10,11 @@ public interface XmOrderService {
      */
     boolean addOrder(XmOrder order);
 
+
+
     /**
      * 查询所有订单
      */
+
     List<XmOrder> getAllOrders();
 }
