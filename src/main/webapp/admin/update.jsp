@@ -11,6 +11,7 @@
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
 </head>
 <body>
+
 <div id="addAll">
     <div id="nav">
         <p>商品管理 &gt; 更新商品</p>

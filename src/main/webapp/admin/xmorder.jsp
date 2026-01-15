@@ -7,6 +7,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+
     <title>订单列表</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bright.css"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.css"/>
@@ -14,6 +15,8 @@
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
 </head>
 <body>
+
+
 
 <c:if test="${not empty sessionScope.msg}">
     <div style="color: green; text-align: center; margin: 10px 0;">
@@ -29,6 +32,7 @@
             <th>用户ID</th>
             <th>收货地址ID</th>
             <th>总金额</th>
+            
             <th>备注</th>
             <th>状态</th>
             <th>下单时间</th>

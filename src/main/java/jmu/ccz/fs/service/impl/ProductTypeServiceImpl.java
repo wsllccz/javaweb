@@ -17,8 +17,14 @@ public class ProductTypeServiceImpl implements ProductTypeService {
     @Autowired
     private ProductTypeMapper typeMapper;
 
+
+
     @Override
     public List<ProductType> getAllType() {
         return typeMapper.selectByExample(new ProductTypeExample());
-    }
+    }4
+
+
+
+
 }

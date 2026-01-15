@@ -25,4 +25,7 @@ public interface ProductInfoService {
     public PageInfo<ProductInfo> splitPageVo(ProductVo vo, int pageSize);
     //批量删除
     public int deleteBatch(String[] pids);
+
+
+
 }

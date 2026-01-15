@@ -13,7 +13,7 @@ public interface ProductInfoMapper {
     int deleteByExample(ProductInfoExample example);
 
     int deleteByPrimaryKey(Integer pId);
-
+    int deleteByPrimaryKey1(Integer aId);
     int insert(ProductInfo record);
 
     int insertSelective(ProductInfo record);
