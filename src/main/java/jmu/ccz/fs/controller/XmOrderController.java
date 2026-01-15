@@ -24,6 +24,7 @@ public class XmOrderController {
     @RequestMapping("/list")
     public String list(@RequestParam(value = "page", defaultValue = "1") Integer page,
                        HttpSession session,
+
                        Model model) {
 
 
@@ -32,6 +33,7 @@ public class XmOrderController {
         PageHelper.startPage(page, pageSize);
 
         List<XmOrder> list = xmOrderService.getAllOrders();
+
         PageInfo<XmOrder> pb = new PageInfo<>(list);
 
         model.addAttribute("pb", pb);

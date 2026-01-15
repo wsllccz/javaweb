@@ -11,4 +11,5 @@ public interface XmOrderMapper {
     int insert(XmOrder order);
 
     List<XmOrder> selectAll();
+
 }
