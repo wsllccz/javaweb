@@ -3,6 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
+
 <mapper namespace="jmu.ccz.fs.mapper.XmOrderMapper">
 
     <insert id="insert" parameterType="jmu.ccz.fs.pojo.XmOrder">
@@ -10,8 +11,11 @@
         values (#{oid}, #{uid}, #{addressId}, #{totalprice}, #{remarks}, #{status}, #{odate})
     </insert>
 
+
+
     <select id="selectAll" resultType="jmu.ccz.fs.pojo.XmOrder">
         select * from xmorder
     </select>
+
 
 </mapper>

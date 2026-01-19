@@ -51,5 +51,8 @@ public class OrderController {
 
         model.addAttribute("pb", pb);
         return "carshop";
+
+        model.deletAttribute("pb", pb);
+        return "carshop";
     }
 }

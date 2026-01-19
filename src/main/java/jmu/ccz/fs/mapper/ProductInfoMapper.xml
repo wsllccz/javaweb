@@ -218,6 +218,7 @@
     </if>
   </update>
 
+
     <update id="reduceStock">
         update product_info
         set p_number = p_number - #{num}
